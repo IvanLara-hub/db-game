@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  background: url("./../images/bg-dbz.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+#intro {
+  width: 900px;
+  height: 600px;
+  background: url("./../images/dbz.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start-btn {
+  display: block;
+  font-size: 15px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-color: black;
+  border-radius: 4px;
+  outline: none;
+  color: white;
+  background-color: #611414;
+  transform: translateY(-17px);
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+#start-btn:hover {
+  background-color: #ef901c;
+  margin-top: 2px;
+}
